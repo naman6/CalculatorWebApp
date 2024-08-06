@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>Naman, 865240</Authors>
+	<Version>1.0.0</Version>
+	<Description>A simple calculator library</Description>
+	<PackageTags>calculator</PackageTags>
+	<IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.14.1" />
+  </ItemGroup>
+
+</Project>
+
+
